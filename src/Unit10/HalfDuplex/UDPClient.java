@@ -1,4 +1,4 @@
-package Unit8.HalfDuplex;
+package Unit10.HalfDuplex;
 import java.io.IOException;
 import java.net.*;
 import java.util.Scanner;

@@ -4,41 +4,35 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b57ab17-fbf5-402b-b7ac-c883e19db344" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaNetworking.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Unit2/HostLookup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Unit2/IPandMACAddress.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Unit2/InterfaceLister.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Unit2/RetrieveAddress.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Unit3/RetrievingData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Unit4/CookieStoreExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Unit4/NoGovermentCookies.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Unit5/HeaderTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Unit6/DayTime/DayTimeClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Unit6/LocalPortScanner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Unit6/ReadingDataUsingBuffer/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Unit6/ReadingDataUsingBuffer/Server.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Unit6/ReadingDataUsingStream/ClientExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Unit6/ReadingDataUsingStream/ServerExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Unit6/echoClient/EchoClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Unit7/DayTimeServer/DateTimeClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Unit7/DayTimeServer/DayTimeServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Unit7/MultithreadedServer/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Unit7/MultithreadedServer/ClientHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Unit7/MultithreadedServer/Server.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Unit7/TimeServer/TimeClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Unit7/TimeServer/TimeServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Unit8/DateConverterUDPServer/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Unit8/DateConverterUDPServer/Server.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Unit8/HalfDuplex/UDPClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Unit8/HalfDuplex/UDPServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Unit8/SimpleUDPProgram/UDPClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Unit8/SimpleUDPProgram/UDPServer.java" afterDir="false" />
+    <list default="true" id="6b57ab17-fbf5-402b-b7ac-c883e19db344" name="Changes" comment="REPO created">
+      <change afterPath="$PROJECT_DIR$/src/Unit10/DatagramChannel/DatagramChannelClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Unit10/DatagramChannel/DatagramChannelServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Unit11/SimpleMultcastSocket2/MulticastReceiver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Unit11/SimpleMultcastSocket2/MulticastReceiverB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Unit11/SimpleMultcastSocket2/MulticastSender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Unit11/SimpleMultiSocket/MulticastReceiver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Unit11/SimpleMultiSocket/MulticastReceiverB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Unit11/SimpleMultiSocket/MulticastSender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Unit12/AddTwoNumber/Adder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Unit12/AddTwoNumber/AdderImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Unit12/AddTwoNumber/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Unit12/AddTwoNumber/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Unit12/MessageSent/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Unit12/MessageSent/MessageServices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Unit12/MessageSent/RemoteMessageServices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Unit12/MessageSent/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Unit8/EventHandaling/HTTPSClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Unit8/HTTPSClient/HTTPSClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Unit8/SSLServerSocket/SimpleSSLClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Unit8/SSLServerSocket/SimpleSSLServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Unit8/SessionManagement/HTTPSClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Unit8/DateConverterUDPServer/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Unit10/DateConverterUDPServer/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Unit8/DateConverterUDPServer/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Unit10/DateConverterUDPServer/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Unit8/HalfDuplex/UDPClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Unit10/HalfDuplex/UDPClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Unit8/HalfDuplex/UDPServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Unit10/HalfDuplex/UDPServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Unit8/SimpleUDPProgram/UDPClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Unit10/SimpleUDPProgram/UDPClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Unit8/SimpleUDPProgram/UDPServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Unit10/SimpleUDPProgram/UDPServer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +42,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -55,9 +50,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;prajwaldahal&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/prajwaldahal/NetworkProgramming.git&quot;,
+    &quot;accountId&quot;: &quot;c747bfcd-d967-4c06-9c82-6c3faf0aa87b&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2lnMOfp18w4vnn307bigEjVFHWT" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -69,11 +76,25 @@
     "Application.Client.executor": "Run",
     "Application.DateTimeClient.executor": "Run",
     "Application.DayTimeServer.executor": "Run",
+    "Application.HTTPSClient.executor": "Run",
+    "Application.MulticastReceiver.executor": "Run",
+    "Application.MulticastReceiverB.executor": "Run",
+    "Application.MulticastSender.executor": "Run",
     "Application.Server.executor": "Run",
+    "Application.SimpleSSLClient.executor": "Run",
+    "Application.SimpleSSLServer.executor": "Run",
     "Application.TimeClient.executor": "Run",
     "Application.TimeServer.executor": "Run",
     "Application.UDPClient.executor": "Run",
     "Application.UDPServer.executor": "Run",
+    "Application.Unit10.DateConverterUDPServer.Client.executor": "Run",
+    "Application.Unit11.SimpleMultcastSocket2.MulticastReceiver.executor": "Run",
+    "Application.Unit11.SimpleMultcastSocket2.MulticastReceiverB.executor": "Run",
+    "Application.Unit11.SimpleMultcastSocket2.MulticastSender.executor": "Run",
+    "Application.Unit12.AddTwoNumber.Client.executor": "Run",
+    "Application.Unit12.AddTwoNumber.Server.executor": "Run",
+    "Application.Unit12.MessageSent.Server.executor": "Run",
+    "Application.Unit8.EventHandaling.HTTPSClient.executor": "Run",
     "Application.Unit8.HalfDuplex.UDPClient.executor": "Run",
     "Application.Unit8.HalfDuplex.UDPServer.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -99,13 +120,13 @@
       <recent name="E:\JavaNetworking\src\Unit2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Server">
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Unit8.SimpleUDPProgram.Client" />
+  <component name="RunManager" selected="Application.SimpleSSLClient">
+    <configuration name="HTTPSClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Unit8.HTTPSClient.HTTPSClient" />
       <module name="JavaNetworking" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Unit8.SimpleUDPProgram.*" />
+          <option name="PATTERN" value="Unit8.HTTPSClient.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,12 +134,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Unit8.DateConverterUDPServer.Server" />
+    <configuration name="SimpleSSLClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Unit8.SSLServerSocket.SimpleSSLClient" />
       <module name="JavaNetworking" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Unit8.DateConverterUDPServer.*" />
+          <option name="PATTERN" value="Unit8.SSLServerSocket.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,12 +147,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UDPClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Unit8.SimpleUDPProgram.UDPClient" />
+    <configuration name="SimpleSSLServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Unit8.SSLServerSocket.SimpleSSLServer" />
       <module name="JavaNetworking" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Unit8.SimpleUDPProgram.*" />
+          <option name="PATTERN" value="Unit8.SSLServerSocket.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,12 +160,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Unit8.HalfDuplex.UDPClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Unit8.HalfDuplex.UDPClient" />
+    <configuration name="Unit11.SimpleMultcastSocket2.MulticastReceiverB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Unit11.SimpleMultcastSocket2.MulticastReceiverB" />
       <module name="JavaNetworking" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Unit8.HalfDuplex.*" />
+          <option name="PATTERN" value="Unit11.SimpleMultcastSocket2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -152,12 +173,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Unit8.HalfDuplex.UDPServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Unit8.HalfDuplex.UDPServer" />
+    <configuration name="Unit8.EventHandaling.HTTPSClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Unit8.EventHandaling.HTTPSClient" />
       <module name="JavaNetworking" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Unit8.HalfDuplex.*" />
+          <option name="PATTERN" value="Unit8.EventHandaling.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -167,11 +188,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Client" />
-        <item itemvalue="Application.Server" />
-        <item itemvalue="Application.Unit8.HalfDuplex.UDPClient" />
-        <item itemvalue="Application.Unit8.HalfDuplex.UDPServer" />
-        <item itemvalue="Application.UDPClient" />
+        <item itemvalue="Application.SimpleSSLClient" />
+        <item itemvalue="Application.SimpleSSLServer" />
+        <item itemvalue="Application.Unit8.EventHandaling.HTTPSClient" />
+        <item itemvalue="Application.HTTPSClient" />
+        <item itemvalue="Application.Unit11.SimpleMultcastSocket2.MulticastReceiverB" />
       </list>
     </recent_temporary>
   </component>
@@ -192,10 +213,27 @@
       <option name="presentableId" value="Default" />
       <updated>1725811358674</updated>
       <workItem from="1725811359808" duration="10237000" />
+      <workItem from="1725821917146" duration="190000" />
+      <workItem from="1725853504011" duration="7162000" />
+      <workItem from="1725894589820" duration="3668000" />
+      <workItem from="1725946183618" duration="4202000" />
     </task>
+    <task id="LOCAL-00001" summary="REPO created">
+      <option name="closed" value="true" />
+      <created>1725821956133</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1725821956133</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="REPO created" />
+    <option name="LAST_COMMIT_MESSAGE" value="REPO created" />
   </component>
 </project>

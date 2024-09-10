@@ -1,4 +1,4 @@
-package Unit8.SimpleUDPProgram;
+package Unit10.DateConverterUDPServer;
 
 import java.net.DatagramPacket;
 import java.net.DatagramSocket;
@@ -9,29 +9,28 @@ public class Client {
     public static void main(String[] args) {
         DatagramSocket socket = null;
         try {
-            // Create a DatagramSocket
             socket = new DatagramSocket();
-
-            // Get the server's IP address (localhost in this case)
             InetAddress serverAddress = InetAddress.getByName("localhost");
 
             Scanner scanner = new Scanner(System.in);
-
-            // Continuously send messages to the server
+            byte [] buffer= new byte[1024];
+           if(!socket.isClosed())
             while (true) {
-                System.out.print("Enter Date in YYYY-MM-DD format: ");
+                System.out.println();
+                System.out.print("Enter Date in YYYY-MM-DD format(BS): ");
                 String message = scanner.nextLine();
-
-                // Convert the message to a byte array
                 byte[] sendBuffer = message.getBytes();
-
-                // Create a DatagramPacket to send data to the server on port 1234
                 DatagramPacket sendPacket = new DatagramPacket(sendBuffer, sendBuffer.length, serverAddress, 1234);
-
-                // Send the packet
                 socket.send(sendPacket);
 
-                System.out.println("Message sent to the server.");
+                DatagramPacket receivePacket = new DatagramPacket(buffer, buffer.length);
+                socket.receive(receivePacket);
+                String receivedMessage = new String(receivePacket.getData(), 0, receivePacket.getLength());
+                if(!receivedMessage.toLowerCase().equals("invalid date"))
+                    System.out.println("Converted Date(AD): " + receivedMessage);
+                else
+                    System.out.println(receivedMessage);
+
             }
         } catch (Exception e) {
             e.printStackTrace();
