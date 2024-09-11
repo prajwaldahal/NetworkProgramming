@@ -4,19 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b57ab17-fbf5-402b-b7ac-c883e19db344" name="Changes" comment="REPO created">
-      <change afterPath="$PROJECT_DIR$/src/Unit9/Buffer/BufferDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Unit9/Demo/FileReadExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Unit9/Demo/sample.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Unit10/DateConverterUDPServer/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Unit10/DateConverterUDPServer/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Unit2/InterfaceLister.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Unit2/InterfaceLister.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Unit3/RetrievingData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Unit3/RetrievingData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Unit6/ReadingDataUsingBuffer/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Unit6/ReadingDataUsingBuffer/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Unit6/ReadingDataUsingBuffer/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Unit6/ReadingDataUsingBuffer/Server.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Unit8/SSLServerSocket/SSLClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Unit8/SSLServerSocket/SSLClient.java" afterDir="false" />
-    </list>
+    <list default="true" id="6b57ab17-fbf5-402b-b7ac-c883e19db344" name="Changes" comment="REPO created" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -207,7 +195,7 @@
       <workItem from="1725946183618" duration="6557000" />
       <workItem from="1725960998694" duration="5997000" />
       <workItem from="1725981618524" duration="4238000" />
-      <workItem from="1726020627147" duration="2419000" />
+      <workItem from="1726020627147" duration="3968000" />
     </task>
     <task id="LOCAL-00001" summary="REPO created">
       <option name="closed" value="true" />
