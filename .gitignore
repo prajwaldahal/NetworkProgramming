@@ -2,6 +2,9 @@
 out/
 !**/src/main/**/out/
 !**/src/test/**/out/
+*.keystore
+*.jsk
+*.cer
 
 ### Eclipse ###
 .apt_generated

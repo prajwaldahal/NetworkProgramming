@@ -1,5 +1,6 @@
 package Unit10.DateConverterUDPServer;
 
+import java.io.IOException;
 import java.net.DatagramPacket;
 import java.net.DatagramSocket;
 import java.net.InetAddress;
@@ -32,7 +33,7 @@ public class Client {
                     System.out.println(receivedMessage);
 
             }
-        } catch (Exception e) {
+        } catch (IOException e) {
             e.printStackTrace();
         } finally {
             if (socket != null && !socket.isClosed()) {

@@ -21,7 +21,7 @@ public class DatagramChannelServer {
                 String message = new String(data);
                 System.out.println("Received from client: " + message);
 
-                // Send a response back to the client
+
                 String response = "Message received: " + message;
                 ByteBuffer responseBuffer = ByteBuffer.wrap(response.getBytes());
                 serverChannel.send(responseBuffer, clientAddress);

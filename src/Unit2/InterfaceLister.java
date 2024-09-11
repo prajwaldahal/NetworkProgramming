@@ -6,8 +6,9 @@ public class InterfaceLister {
  public static void main(String[] args) throws Exception {
  Enumeration<NetworkInterface> interfaces = NetworkInterface.getNetworkInterfaces( );
  while (interfaces.hasMoreElements( )) {
- NetworkInterface ni = (NetworkInterface) interfaces.nextElement( );
+ NetworkInterface ni = interfaces.nextElement( );
  System.out.println(ni);
+  //System.out.println(ni.);
  }
  }
 }

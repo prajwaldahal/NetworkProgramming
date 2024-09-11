@@ -14,15 +14,18 @@ public class UDPServer {
             byte[] buf = new byte[1024];
             Scanner scanner = new Scanner(System.in);
             while (true) {
+
                 DatagramPacket dp = new DatagramPacket(buf, buf.length);
                 socket.receive(dp);
                 String message = new String(dp.getData(),0,dp.getLength());
                 System.out.println("Received From Client: " + message);
                 System.out.println();
+
                 System.out.print("Enter the message to sent to client: ");
                 String msg = scanner.nextLine();
                 DatagramPacket sendPacket= new DatagramPacket(msg.getBytes(), msg.length(), dp.getAddress(), dp.getPort());
                 socket.send(sendPacket);
+
             }
         } catch (SocketException e) {
             throw new RuntimeException(e);
