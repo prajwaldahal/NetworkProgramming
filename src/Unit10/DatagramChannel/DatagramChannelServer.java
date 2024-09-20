@@ -1,5 +1,6 @@
 package Unit10.DatagramChannel;
 
+import java.io.IOException;
 import java.net.*;
 import java.nio.*;
 import java.nio.channels.*;
@@ -29,7 +30,7 @@ public class DatagramChannelServer {
                 System.out.println("Response sent to client.");
             }
 
-        } catch (Exception e) {
+        } catch (IOException e) {
             e.printStackTrace();
         }
     }

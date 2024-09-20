@@ -6,7 +6,7 @@ class RetrievingData{
 	public static void main(String[]args){
         URL url = null;
         try {
-            url = new URL("https://www.kcmit.edu.np/index.php");
+            url = new URL("http://www.kcmit.edu.np/index.php");
 			URLConnection connection = url.openConnection();
 			BufferedReader in = new BufferedReader(new
 					InputStreamReader(connection.getInputStream()));

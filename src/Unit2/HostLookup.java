@@ -29,30 +29,26 @@ public class HostLookup {
     private static String lookup(String host) {
         InetAddress node;
         try {
-            // Get the InetAddress object based on the host (IP or hostname)
             node = InetAddress.getByName(host);
         } catch (UnknownHostException ex) {
             return "Cannot find host: " + host;
         }
 
-        // Check if the input is a hostname or an IP address
         if (isHostname(host)) {
-            return "IP Address: " + node.getHostAddress(); // It's a hostname, return its IP
+            return "IP Address: " + node.getHostAddress();
         } else {
-            return "Hostname: " + node.getHostName(); // It's an IP address, return the hostname
+            return "Hostname: " + node.getHostName();
         }
     }
 
     private static boolean isHostname(String host) {
-        // Check if it's an IPv6 address by looking for ':'
         if (host.indexOf(':') != -1) return false;
 
         char[] ca = host.toCharArray();
 
-        // Loop through characters to determine if it's a hostname or an IP address
         for (int i = 0; i < ca.length; i++) {
             if (!Character.isDigit(ca[i])) {
-                if (ca[i] != '.') return true; // It's a hostname if there's a non-digit and non-period character
+                if (ca[i] != '.') return true;
             }
         }
 

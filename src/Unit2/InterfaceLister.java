@@ -8,7 +8,6 @@ public class InterfaceLister {
  while (interfaces.hasMoreElements( )) {
  NetworkInterface ni = interfaces.nextElement( );
  System.out.println(ni);
-  //System.out.println(ni.);
  }
  }
 }

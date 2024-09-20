@@ -21,6 +21,6 @@ class RetrieveAddress{
 		
 		byte[] addresses ={(byte)120,(byte)255,(byte)78,(byte)34};
 		InetAddress inetAddressA=InetAddress.getByAddress(addresses);
-		System.out.println(inetAddressA.toString());
+		System.out.println(inetAddressA);
 	}
 }
