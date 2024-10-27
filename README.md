@@ -1,4 +1,4 @@
-Project created in INTELLIJ Idea
+IDE used:Intellij
 
 NOTE:
 For Unit-8 -SSLServerSocket topic you need to generate the SSL key for both client and Server before running code using keytool Command:
