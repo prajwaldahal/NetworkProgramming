@@ -82,7 +82,7 @@ keytool -export -alias server -keystore server.keystore -file server.cer -storep
 
 # Import the server certificate into the client's keystore
 keytool -import -alias server -file server.cer -keystore client.keystore -storepass changeit
-
+```
 
 ### Unit 9: Non-blocking I/O
 This unit demonstrates non-blocking I/O using channels and selectors:
